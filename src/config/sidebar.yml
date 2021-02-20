@@ -1,24 +1,97 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+- label: "Introduction"
+  link: "/"
+- label: "Onboarding"
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
-- label: More
+    - label: "Onboarding Checklist"
+      link: "/onboarding/onboarding-checklist"
+    - label: "Bios"
+      link: "/onboarding/bios"
+    - label: "Code of Conduct"
+      link: /onboarding/code-of-conduct
+    - label: Benefits
+      link: /onboarding/benefits
+- label: The Organization
   items:
-    - label: FAQ
-      link: /faq
-    - label: Changelog
-      link: /changelog
-- label: Community
+    - label: Our Mission
+      link: /organization/mission
+    - label: Our Services
+      link: /organization/services
+    - label: Our Partners
+      link: /organization/partners
+    - label: Our Team
+      link: /organization/team
+    - label: Our Accomplishments
+      link: /organization/accomplishments
+- label: Budget
   items:
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: PG Fund
+      link: /budget/pg-fund
+    - label: Merch
+      link: /budget/merch
+- label: Clients
+  items:
+    - label: Service Agreement
+      link: /clients/service-agreement
+    - label: After 1 Year
+      link: /clients/after-1-year
+- label: Technical
+  items:
+    - label: "Slack"
+      link: "/technical/slack"
+    - label: "Trello"
+      link: "/technical/trello"
+    - label: "Email Signatures"
+      link: "/technical/email-signatures"
+    - label: "Calendar"
+      link: "/technical/calendars"
+    - label: Adding Alerts & Popups
+      link: /technical/alerts
+    - label: Secure Sharing
+      link: /technical/secure-sharing
+- label: Web Design
+  items:
+    - label: Website Access
+      link: /web-design/website-access
+    - label: Process
+      link: /web-design/process
+    - label: Checklist
+      link: /web-design/checklist
+    - label: Blog Posts
+      link: /web-design/blog-posts
+    - label: SEO
+      link: /web-design/seo
+    - label: Design Resources
+      link: /web-design/resources
+- label: Google
+  items:
+    - label: Google Accounts
+      link: /google/google-accounts
+    - label: G-Suite Admin
+      link: /google/g-suite
+    - label: Google Analytics
+      link: /google/google-analytics
+    - label: Google My Business
+      link: /google/google-my-business
+    - label: Google Ads
+      link: /google/google-ads
+- label: Contributing
+  items:
+    - label: How to Contribute
+      link: /contributing/contribute
+    - label: Feedback
+      link: /contributing/feedback
+    - label: Markdown
+      link: /contributing/markdown
+
+- label: Social
+  items:
+    - label: "Website"
+      link: https://www.thunderdogfoundation.org
+    - label: "Instagram"
+      link: https://www.instagram.com/theunderdogfoundation/
+    - label: "Facebook"
+      link: https://www.facebook.com/theunderdogfoundation
+    - label: "LinkedIn"
+      link: https://www.linkedin.com/company/the-underdog-foundation/

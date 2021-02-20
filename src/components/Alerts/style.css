@@ -1,0 +1,33 @@
+.alert {
+  position: relative;
+  padding: 0.1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.alert-construction {
+  background-image: linear-gradient(to right, #faae16, #f77516);
+}
+
+.alert-improve {
+  background-image: linear-gradient(to right, #2dd4c0, #3b82f6);
+}
+
+.alert-create {
+  background-image: linear-gradient(to right, #c183fa, #ef4445);
+}
+
+.alert-text {
+  color: #fff;
+  margin-left: 4rem;
+}
+
+.alert-icon {
+  /* float: left; */
+  font-size: 2rem;
+  transform: translateY(25%);
+  margin-left: 0.75rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
