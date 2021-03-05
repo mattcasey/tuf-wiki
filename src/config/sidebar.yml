@@ -5,7 +5,7 @@
 - label: "Onboarding"
   items:
     - label: "Onboarding Checklist"
-      link: "/onboarding/onboarding-checklist"
+      link: "/onboarding/checklist"
     - label: "Bios"
       link: "/onboarding/bios"
     - label: "Code of Conduct"
@@ -26,8 +26,8 @@
       link: /organization/accomplishments
 - label: Budget
   items:
-    - label: PG Fund
-      link: /budget/pg-fund
+    - label: Book Club
+      link: /budget/book-club
     - label: Merch
       link: /budget/merch
 - label: Clients
