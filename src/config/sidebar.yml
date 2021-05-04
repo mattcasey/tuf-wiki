@@ -2,96 +2,30 @@
 
 - label: "Introduction"
   link: "/"
-- label: "Onboarding"
+
+- label: "Team"
   items:
-    - label: "Onboarding Checklist"
-      link: "/onboarding/checklist"
-    - label: "Bios"
-      link: "/onboarding/bios"
-    - label: "Code of Conduct"
-      link: /onboarding/code-of-conduct
-    - label: Benefits
-      link: /onboarding/benefits
-- label: The Organization
-  items:
-    - label: Our Mission
-      link: /organization/mission
-    - label: Our Services
-      link: /organization/services
-    - label: Our Partners
-      link: /organization/partners
-    - label: Our Team
-      link: /organization/team
-    - label: Our Accomplishments
-      link: /organization/accomplishments
-- label: Budget
-  items:
-    - label: Book Club
-      link: /budget/book-club
-    - label: Merch
-      link: /budget/merch
-- label: Clients
-  items:
-    - label: Service Agreement
-      link: /clients/service-agreement
-    - label: After 1 Year
-      link: /clients/after-1-year
-- label: Technical
-  items:
+    - label: "Onboarding"
+      link: "/team/onboarding"
+    - label: "Book Club"
+      link: "/team/book-club"
     - label: "Slack"
-      link: "/technical/slack"
-    - label: "Trello"
-      link: "/technical/trello"
-    - label: "Email Signatures"
-      link: "/technical/email-signatures"
-    - label: "Calendar"
-      link: "/technical/calendars"
-    - label: Adding Alerts & Popups
-      link: /technical/alerts
-    - label: Secure Sharing
-      link: /technical/secure-sharing
-- label: Web Design
+      link: "/team/slack"
+
+- label: "Processes"
   items:
-    - label: Website Access
-      link: /web-design/website-access
-    - label: Process
-      link: /web-design/process
-    - label: Checklist
-      link: /web-design/checklist
-    - label: Blog Posts
-      link: /web-design/blog-posts
-    - label: SEO
-      link: /web-design/seo
-    - label: Design Resources
-      link: /web-design/resources
-- label: Google
-  items:
-    - label: Google Accounts
-      link: /google/google-accounts
-    - label: G-Suite Admin
-      link: /google/g-suite
-    - label: Google Analytics
-      link: /google/google-analytics
-    - label: Google My Business
-      link: /google/google-my-business
-    - label: Google Ads
-      link: /google/google-ads
-- label: Contributing
-  items:
-    - label: How to Contribute
-      link: /contributing/contribute
-    - label: Feedback
-      link: /contributing/feedback
-    - label: Markdown
-      link: /contributing/markdown
+    - label: "New User Setup"
+      link: "/processes/new-users"
+    - label: "Web Design"
+      link: "/processes/web-design"
 
 - label: Social
   items:
     - label: "Website"
-      link: https://www.thunderdogfoundation.org
+      link: https://www.iamtuf.org
     - label: "Instagram"
-      link: https://www.instagram.com/theunderdogfoundation/
+      link: https://www.instagram.com/iamtuf
     - label: "Facebook"
-      link: https://www.facebook.com/theunderdogfoundation
+      link: https://www.facebook.com/iamtuf
     - label: "LinkedIn"
-      link: https://www.linkedin.com/company/the-underdog-foundation/
+      link: https://www.linkedin.com/company/iamtuf
