@@ -18,7 +18,7 @@ module.exports = {
         configPath: `src/config`,
         docsPath: `src/docs`,
         githubUrl: `https://github.com/darnocer/tuf-wiki`,
-        baseDir: `examples/gatsby-theme-docs`,
+        baseDir: ``,
       },
     },
     {
