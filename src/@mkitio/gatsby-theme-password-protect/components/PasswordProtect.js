@@ -11,7 +11,8 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    textAlign: 'center'
   },
   input: {
     border: '0 none',
@@ -59,33 +60,35 @@ const PasswordProtect = () => {
   };
 
   return (
-    <div style={styles.wrapper}>
-      <h1 style={{ color: '#FFCB05' }}>Welcome</h1>
-      <h4 style={{ color: '#FFCB05' }}>Enter Password</h4>
+    <form onSubmit={onSubmit}>
+      <div style={styles.wrapper}>
+        <div style={{ width: '320px' }}>
+          <h1 style={{ color: '#FFCB05' }}>Welcome</h1>
+          <h4 style={{ color: '#FFCB05' }}>Enter Password</h4>
 
-      <form onSubmit={onSubmit} style={{ width: '320px' }}>
-        <input
-          autoFocus
-          name="password"
-          type="password"
-          value={password}
-          onChange={event => setPassword(event.target.value)}
-          style={styles.input}
-        />
+          <input
+            autoFocus
+            name="password"
+            type="password"
+            value={password}
+            onChange={event => setPassword(event.target.value)}
+            style={styles.input}
+          />
 
-        <button
-          type="submit"
-          style={{
-            ...styles.button,
-            ...(isButtonHovered ? styles.buttonHover : null)
-          }}
-          onMouseEnter={() => buttonHover(true)}
-          onMouseLeave={() => buttonHover(false)}
-        >
-          Enter
-        </button>
-      </form>
-    </div>
+          <button
+            type="submit"
+            style={{
+              ...styles.button,
+              ...(isButtonHovered ? styles.buttonHover : null)
+            }}
+            onMouseEnter={() => buttonHover(true)}
+            onMouseLeave={() => buttonHover(false)}
+          >
+            Enter
+          </button>
+        </div>
+      </div>
+    </form>
   );
 };
 
