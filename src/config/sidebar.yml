@@ -18,6 +18,8 @@
       link: "/processes/new-users"
     - label: "Web Design"
       link: "/processes/web-design"
+    - label: "Takedown Requests"
+      link: "/processes/takedown-request"
 
 - label: Social
   items:
