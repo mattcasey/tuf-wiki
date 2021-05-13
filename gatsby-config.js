@@ -46,12 +46,12 @@ module.exports = {
         siteUrl: `https://rocketdocs.netlify.com`,
       },
     },
-    // {
-    //   resolve: "@mkitio/gatsby-theme-password-protect",
-    //   options: {
-    //     password: "sUp3rS3cR3t", // delete or `undefined` to disable password protection
-    //   },
-    // },
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        password: 'tuf2021' // delete or `undefined` to disable password protection
+      }
+    },
     `gatsby-plugin-offline`,
     // {
     //   resolve: "gatsby-plugin-mdx",
